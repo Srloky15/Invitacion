@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Party Invitation</title>
+    
+    <meta property="og:title" content="Invitación VIP" />
+    <meta property="og:description" content="Acceso exclusivo. No faltes." />
+    <meta property="og:image" content="images/portada.jpg" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="config.js"></script>
+</head>
+<body>
+
+    <canvas id="neon-canvas"></canvas>
+    <div class="scanline"></div>
+
+    <div class="neon-player">
+        <button id="play-btn" class="player-btn"><i class="fa-solid fa-play"></i></button>
+        <div class="track-info">
+            <span id="track-name">LOADING...</span>
+            <div class="visualizer">
+                <span></span><span></span><span></span><span></span><span></span>
+            </div>
+        </div>
+    </div>
+    <audio id="bg-music" loop><source src="" type="audio/mpeg"></audio>
+
+    <section class="hero-screen">
+        <div class="glitch-container">
+            <p class="party-subtitle" id="hero-subtitle"></p>
+            <h1 class="party-title glitch" id="hero-name" data-text="LOADING"></h1>
+            <div class="neon-circle">
+                <img src="images/img.jpeg"  class="imgP">
+            </div>
+        </div>
+        <div class="scroll-arrow">
+            <h2 class="Mis">Sandra 40 • César 50</h2>
+            <i class="fa-solid fa-angles-down"></i>
+        </div>
+    </section>
+
+    <section class="content-box" data-aos="fade-up">
+        <h2 class="neon-heading">WARNING</h2>
+        <p id="quote-text" class="cyber-text"></p>
+    </section>
+
+    <section class="content-box" data-aos="zoom-in">
+        <h2 class="neon-heading">COUNTDOWN</h2>
+        <div id="countdown" class="digital-clock">
+            <div class="clock-segment"><span id="d">00</span><small>DÍAS</small></div>
+            <div class="dots">:</div>
+            <div class="clock-segment"><span id="h">00</span><small>HRS</small></div>
+            <div class="dots">:</div>
+            <div class="clock-segment"><span id="m">00</span><small>MIN</small></div>
+            <div class="dots">:</div>
+            <div class="clock-segment"><span id="s">00</span><small>SEG</small></div>
+        </div>
+    </section>
+
+    <section class="content-box" data-aos="fade-right">
+        <h2 class="neon-heading">LOCATION</h2>
+        <div class="cyber-card">
+            <img id="img-lugar" src="" class="card-img">
+            <h3 id="place-name"></h3>
+            <p id="place-address"></p>
+            <a id="btn-map" href="#" target="_blank" class="cyber-btn">
+                <i class="fa-solid fa-location-dot"></i> GOOGLE MAPS
+            </a>
+        </div>
+    </section>
+
+    <section class="content-box" data-aos="fade-left">
+        <h2 class="neon-heading">LINE UP</h2>
+        <ul id="lineup-list" class="terminal-list">
+            </ul>
+    </section>
+
+    <section class="content-box" id="extra-section" data-aos="zoom-in-up">
+        <h2 class="neon-heading">THE VIBE</h2>
+        <div class="cyber-frame">
+            <img id="img-extra" src="" alt="Party Vibe">
+            <div class="frame-corner corner-tl"></div>
+            <div class="frame-corner corner-br"></div>
+        </div>
+    </section>
+
+
+
+    <footer class="cyber-footer">
+        <h2 class="neon-heading">ARE YOU READY?</h2>
+        <button id="btn-whatsapp" class="cyber-btn glitch-btn">
+            CONFIRMAR ASISTENCIA
+        </button>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
