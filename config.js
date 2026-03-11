@@ -40,7 +40,7 @@ const config = {
         dresscode: "images/dresscode.png",
         
         // NUEVA FOTO EXTRA (Para la secciÃ³n 'THE VIBE')
-        fotoExtra: "images/extra.png" 
+        fotoExtra: "images/imgE.jpeg" 
     },
 
     // === 5. CÃ“DIGO DE VESTIMENTA ===
