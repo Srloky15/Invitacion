@@ -53,12 +53,12 @@ const config = {
     regalos: {
         titulo: "Regalos",
         texto: "Tu presencia es mi regalo",
-        //tipo: "sobres", 
-        //datos: {
-          //  banco: "Banco Azteca",
-           // cuenta: "9876 5432 1098",
-           // titular: "Valentina M."
-        //}
+        tipo: "sobres", 
+        datos: {
+            banco: "Banco BANAMEX",
+            cuenta: " 5256 7818 1587 8090",
+            titular: " Sandra Yazmin Gracias Alba"
+        }
     },
 
     // === 7. TICKET VIP ===
