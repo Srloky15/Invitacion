@@ -52,7 +52,7 @@ const config = {
     // === 6. REGALOS / COVER ===
     regalos: {
         titulo: "Regalos",
-        texto: "Tu presencia es mi regalo",
+        texto: "Tu presencia es mi regalo, pero si quieres invitar la primera ronda o traer un detalle:",
         tipo: "sobres", 
         datos: {
             banco: "Banco BANAMEX",
