@@ -26,8 +26,9 @@ body {
 }
 .imgP{
     border-radius: 2rem;
-    margin-top: 14rem;
+    margin-top: 10.7rem;
     max-width: 250%;
+    max-height: 310%;
 }
 /* === FONDO CANVAS === */
 #neon-canvas {
